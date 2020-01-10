@@ -32,6 +32,7 @@ public class Day12SeleniumQ1 {
 		//Object obj = js.executeScript("return arguments[0].getAttribute('value')", reviews);
 		
 		System.out.println(reviews.getText());
+		System.out.println("cloning check");
 		
 		
 	}
