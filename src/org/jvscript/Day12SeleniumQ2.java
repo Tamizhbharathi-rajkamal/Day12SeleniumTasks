@@ -32,6 +32,7 @@ public class Day12SeleniumQ2 {
 		WebElement up = driver.findElement(By.xpath("//h4[text() = 'Q&A Forum']"));
 		
 		js.executeScript("arguments[0].scrollIntoView(false)", up);
+		System.out.println("cloning again check");
 		
 	}
 
